@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Pulse</title>
+    <meta name="description" content="Get support for the Pulse app. Contact us for help, feature requests, or bug reports.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-dot"></span> Pulse
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="support.html" class="active">Support</a>
+                <a href="privacy.html">Privacy</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header container">
+            <h1>App Support</h1>
+            <p class="hero-subtitle">How can we help you today?</p>
+        </section>
+
+        <section class="content-section">
+            <div class="support-form">
+                <h2>Contact Us</h2>
+                <p>Have a question, feature request, or found a bug? Send us a message below, or email us directly at <strong>mail2prajyot@gmail.com</strong>.</p>
+                
+                <form action="mailto:mail2prajyot@gmail.com" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="How can we help?">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Please describe your issue or request in detail..."></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+
+            <h2 style="margin-top: 4rem;">Frequently Asked Questions</h2>
+            
+            <h3>Notifications aren't working in the background</h3>
+            <p>Please ensure that you have granted Notification permissions to Pulse. You can check this by going to your iPhone's <strong>Settings > Pulse > Notifications</strong> and ensuring "Allow Notifications" is turned on. Also, make sure your phone is not in "Do Not Disturb" mode unless you have allowed Pulse to bypass it.</p>
+            
+            <h3>How do I restore my Pulse Pro purchase?</h3>
+            <p>Go to the Pulse Pro upgrade screen by tapping the "PRO" badge or any locked feature. Tap the "Restore Purchases" button at the bottom of the screen.</p>
+            
+            <h3>Why isn't the Haptic Feedback working?</h3>
+            <p>Haptic feedback requires Pulse Pro. Additionally, make sure you have "System Haptics" enabled in your iPhone's <strong>Settings > Sounds & Haptics</strong>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="support.html">Support</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <p class="footer-text">© 2026 Pulse App. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
